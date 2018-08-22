@@ -26,7 +26,8 @@ class App extends Component {
      this.onCurrencySelect = this.onCurrencySelect.bind(this);
   }
 
-  componentDidMount() {
+  componentDidMount() 
+  {
     this.getBitcoinData();
   }
 
